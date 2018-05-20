@@ -1,4 +1,4 @@
-localhost:8080
+bino.com.br
 proxy /aluno1 localhost:12001
 proxy /aluno2 localhost:12002
 proxy /aluno3 localhost:12003
