@@ -1,0 +1,8 @@
+localhost:8080
+proxy /aluno1 localhost:12001
+proxy /aluno2 localhost:12002
+proxy /aluno3 localhost:12003
+proxy /aluno4 localhost:12004
+proxy /aluno5 localhost:12005
+proxy /aluno6 localhost:12006
+
