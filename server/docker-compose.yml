@@ -15,6 +15,7 @@ services:
       - db
     ports:
       - 12000:80
+
   wp1:
     depends_on:
       - db
@@ -84,6 +85,294 @@ services:
     restart: always
     environment:
       WORDPRESS_DB_NAME: wp6
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp7:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12007:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp7
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp8:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12008:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp8
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp9:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12009:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp9
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp10:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12010:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp20
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp11:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12011:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp11
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp12:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12012:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp12
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp13:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12013:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp13
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp14:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12014:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp14
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp15:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12015:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp15
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp16:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12016:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp16
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp17:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12017:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp17
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp18:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12018:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp18
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp19:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12019:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp19
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp20:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12020:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp20
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp21:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12021:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp21
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp22:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12022:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp22
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp23:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12023:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp23
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp24:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12024:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp24
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp25:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12025:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp25
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp26:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12026:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp26
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp27:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12027:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp27
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp28:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12028:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp28
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp29:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12029:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp29
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root
+  wp30:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "12030:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_NAME: wp30
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: root
       WORDPRESS_DB_PASSWORD: root

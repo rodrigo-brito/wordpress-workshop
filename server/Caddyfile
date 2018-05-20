@@ -1,8 +1,155 @@
-bino.com.br
-proxy /aluno1 localhost:12001
-proxy /aluno2 localhost:12002
-proxy /aluno3 localhost:12003
-proxy /aluno4 localhost:12004
-proxy /aluno5 localhost:12005
-proxy /aluno6 localhost:12006
-
+bino.com.br {
+    proxy / localhost:1200 {
+        transparent
+    }
+}
+aluno1.bino.com.br {
+    proxy / localhost:12001 {
+        transparent
+    }
+}
+aluno2.bino.com.br {
+    proxy / localhost:12002 {
+        transparent
+    }
+}
+aluno3.bino.com.br {
+    proxy / localhost:12003 {
+        transparent
+    }
+}
+aluno4.bino.com.br {
+    proxy / localhost:12004 {
+        transparent
+    }
+}
+aluno5.bino.com.br {
+    proxy / localhost:12005 {
+        transparent
+    }
+}
+aluno6.bino.com.br {
+    proxy / localhost:12006 {
+        transparent
+    }
+}
+aluno7.bino.com.br {
+    proxy / localhost:12007 {
+        transparent
+    }
+}
+aluno8.bino.com.br {
+    proxy / localhost:12008 {
+        transparent
+    }
+}
+aluno9.bino.com.br {
+    proxy / localhost:12009 {
+        transparent
+    }
+}
+aluno10.bino.com.br {
+    proxy / localhost:12010 {
+        transparent
+    }
+}
+aluno11.bino.com.br {
+    proxy / localhost:12011 {
+        transparent
+    }
+}
+aluno12.bino.com.br {
+    proxy / localhost:12012 {
+        transparent
+    }
+}
+aluno13.bino.com.br {
+    proxy / localhost:12013 {
+        transparent
+    }
+}
+aluno14.bino.com.br {
+    proxy / localhost:12014 {
+        transparent
+    }
+}
+aluno15.bino.com.br {
+    proxy / localhost:12015 {
+        transparent
+    }
+}
+aluno16.bino.com.br {
+    proxy / localhost:12016 {
+        transparent
+    }
+}
+aluno17.bino.com.br {
+    proxy / localhost:12017 {
+        transparent
+    }
+}
+aluno18.bino.com.br {
+    proxy / localhost:12018 {
+        transparent
+    }
+}
+aluno19.bino.com.br {
+    proxy / localhost:12019 {
+        transparent
+    }
+}
+aluno20.bino.com.br {
+    proxy / localhost:12020 {
+        transparent
+    }
+}
+aluno21.bino.com.br {
+    proxy / localhost:12021 {
+        transparent
+    }
+}
+aluno22.bino.com.br {
+    proxy / localhost:12022 {
+        transparent
+    }
+}
+aluno23.bino.com.br {
+    proxy / localhost:12023 {
+        transparent
+    }
+}
+aluno24.bino.com.br {
+    proxy / localhost:12024 {
+        transparent
+    }
+}
+aluno25.bino.com.br {
+    proxy / localhost:12025 {
+        transparent
+    }
+}
+aluno26.bino.com.br {
+    proxy / localhost:12026 {
+        transparent
+    }
+}
+aluno27.bino.com.br {
+    proxy / localhost:12027 {
+        transparent
+    }
+}
+aluno28.bino.com.br {
+    proxy / localhost:12028 {
+        transparent
+    }
+}
+aluno29.bino.com.br {
+    proxy / localhost:12029 {
+        transparent
+    }
+}
+aluno30.bino.com.br {
+    proxy / localhost:12030 {
+        transparent
+    }
+}
