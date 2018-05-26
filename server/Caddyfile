@@ -1,5 +1,5 @@
 bino.com.br {
-    proxy / localhost:1200 {
+    proxy / localhost:12000 {
         transparent
     }
 }
