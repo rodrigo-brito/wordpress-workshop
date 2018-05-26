@@ -6,7 +6,7 @@ Slides do workshop - [slides.com/rodrigo73/workshop-wordpress](https://slides.co
 
 Para executar:
 
-* Copie os arquivos de cada etapa para `/wp-content/themes/seu-tema`
+* Copie os arquivos de cada etapa para `/wp-content/themes/eati`
 * Ative o tema pelo painel administrativo
 
 Servidores:

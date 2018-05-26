@@ -17,7 +17,7 @@
 					while ( have_posts() ) : the_post(); ?>
 						<div class="col-md-4">
 							<?php 
-								if ( has_post_thumbnail() ):
+								if ( has_post_thumbnail() ) {
 									the_post_thumbnail( 'medium' );
 								}
 							?>
@@ -29,4 +29,5 @@
 				endif;
 			?>
 		</div>
+		
 <?php get_footer(); ?>
